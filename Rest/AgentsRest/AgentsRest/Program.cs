@@ -1,3 +1,6 @@
+using AgentsRest.Data;
+using AgentsRest.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace AgentsRest
 {
@@ -8,11 +11,14 @@ namespace AgentsRest
 			var builder = WebApplication.CreateBuilder(args);
 
 			// Add services to the container.
-
 			builder.Services.AddControllers();
-			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
+			builder.Services.AddDbContext<ApplicationDbContext>(options =>
+				options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+			// Register your scoped service before building the app
+			builder.Services.AddScoped<IAgentService, AgentService>();
 
 			var app = builder.Build();
 
@@ -24,12 +30,8 @@ namespace AgentsRest
 			}
 
 			app.UseHttpsRedirection();
-
 			app.UseAuthorization();
-
-
 			app.MapControllers();
-
 			app.Run();
 		}
 	}
