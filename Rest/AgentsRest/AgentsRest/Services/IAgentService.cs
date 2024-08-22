@@ -7,7 +7,7 @@ namespace AgentsRest.Services
 		Task<AgentModel?> GetAgentByIdAsync(int id);
 		Task<IEnumerable<AgentModel>> GetAllAgentsAsync();
 		Task<AgentModel> CreateAgent(AgentModel agent);
-		Task<AgentModel> UpdateAgentStatusAsync(int id, AgentStatus status);
-		Task<AgentModel> DeleteAgentAsync(int id);
+		void UpdateAgentAsync(int id, AgentModel agent);
+		void MoveAgent(int id, Direction direction);
 	}
 }

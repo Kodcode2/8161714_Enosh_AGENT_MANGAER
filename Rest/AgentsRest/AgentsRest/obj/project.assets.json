@@ -4250,11 +4250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\AgentsExam\\Rest\\AgentsRest\\AgentsRest\\AgentsRest.csproj",
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\AgentsRest.csproj",
       "projectName": "AgentsRest",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\AgentsExam\\Rest\\AgentsRest\\AgentsRest\\AgentsRest.csproj",
+      "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\AgentsRest.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\AgentsExam\\Rest\\AgentsRest\\AgentsRest\\obj\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

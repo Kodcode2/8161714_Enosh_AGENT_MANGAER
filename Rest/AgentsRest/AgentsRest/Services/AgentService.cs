@@ -6,6 +6,17 @@ namespace AgentsRest.Services
 {
 	public class AgentService(ApplicationDbContext context) : IAgentService
 	{
+		private readonly Dictionary<Direction, Action<AgentModel>> directionMovment = new Dictionary<Direction, Action<AgentModel>> 
+		{
+			{Direction.North, agent => agent.LocationY += 1 },
+			{Direction.South, agent => agent.LocationY -= 1 },
+			{Direction.East, agent => agent.LocationX += 1 },
+			{Direction.West, agent => agent.LocationX -= 1 },
+			{Direction.Northeast, agent => {agent.LocationX += 1; agent.LocationY += 1; } },
+			{Direction.NorthWest, agent => {agent.LocationX -= 1; agent.LocationY += 1; } },
+			{Direction.Southeast, agent => {agent.LocationX += 1; agent.LocationY -= 1; } },
+			{Direction.Southwest, agent => {agent.LocationX -= 1; agent.LocationY -= 1; } },
+		};
 		public async Task<AgentModel?> GetAgentByIdAsync(int id) =>
 			await context.Agents.FindAsync(id);
 
@@ -16,37 +27,31 @@ namespace AgentsRest.Services
 		{
 			if (agent == null)
 			{ 
-				throw new ArgumentNullException("Invalid agent");
+				throw new Exception("Invalid agent");
 			}
 			context.Agents.Add(agent);
 			await context.SaveChangesAsync();
 			return agent;
 		}
 
-		public async Task<AgentModel> UpdateAgentStatusAsync(int id, AgentStatus status)
+		public void UpdateAgentAsync(int id, AgentModel agent)
 		{
-			var agent = await context.Agents.FindAsync(id);
-			if (agent == null) { throw new ArgumentNullException("Agent not found"); }
-
-			if(status == AgentStatus.Dormant && context.Missions
-				.Any(m => m.AgentId == id && m.Status == MissionStatus.Assigned))
-			{
-				throw new InvalidOperationException("Can't cancel assingment befour eliminating target");
-			}
-
-			agent.Status = status;
-			await context.SaveChangesAsync();
-			return agent;
+			var existingAgent = context.Agents.Find(id)
+				?? throw new Exception($"Agent by id {id} dose not exsit");
+			existingAgent.Alias = agent.Alias;
+			existingAgent.ImageUrl = agent.ImageUrl;
+			existingAgent.LocationX = agent.LocationX;
+			existingAgent.LocationY = agent.LocationY;
+			existingAgent.Status = agent.Status;
+			context.SaveChangesAsync();
 		}
 
-		public async Task<AgentModel> DeleteAgentAsync(int id)
+		public void MoveAgent(int id, Direction direction)
 		{
-			var agent = await context.Agents.FindAsync(id);
-			if (agent == null) { throw new ArgumentNullException("Agent id not found"); }
-			
-			context.Agents.Remove(agent);
-			await context.SaveChangesAsync();
-			return agent;
+			var agent = context.Agents.Find(id)
+				?? throw new Exception($"Agent by id {id} dose not exsit");
+			directionMovment[direction](agent);
+			context.SaveChanges();
 		}
 	}
 }
