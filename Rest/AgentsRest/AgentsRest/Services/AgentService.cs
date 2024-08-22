@@ -1,4 +1,5 @@
 ﻿using AgentsRest.Data;
+using AgentsRest.Dto;
 using AgentsRest.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,16 +7,16 @@ namespace AgentsRest.Services
 {
 	public class AgentService(ApplicationDbContext context) : IAgentService
 	{
-		private readonly Dictionary<Direction, Action<AgentModel>> directionMovment = new Dictionary<Direction, Action<AgentModel>> 
+		private readonly Dictionary<string, (double x, double y)> Direction = new()
 		{
-			{Direction.North, agent => agent.LocationY += 1 },
-			{Direction.South, agent => agent.LocationY -= 1 },
-			{Direction.East, agent => agent.LocationX += 1 },
-			{Direction.West, agent => agent.LocationX -= 1 },
-			{Direction.Northeast, agent => {agent.LocationX += 1; agent.LocationY += 1; } },
-			{Direction.NorthWest, agent => {agent.LocationX -= 1; agent.LocationY += 1; } },
-			{Direction.Southeast, agent => {agent.LocationX += 1; agent.LocationY -= 1; } },
-			{Direction.Southwest, agent => {agent.LocationX -= 1; agent.LocationY -= 1; } },
+		  {"n", (x: 0, y: 1) },
+		  {"s", (x: 0, y: -1) },
+		  {"e", (x: 1, y: 0) },
+		  {"w", (x: -1, y: 0) },
+		  {"nw", (x: -1, y: 1) },
+		  {"ne", (x: 1, y: 1) },
+		  {"sw", (x: -1, y: -1) },
+		  {"se", (x: 1, y: -1) }
 		};
 		public async Task<AgentModel?> GetAgentByIdAsync(int id) =>
 			await context.Agents.FindAsync(id);
@@ -23,35 +24,49 @@ namespace AgentsRest.Services
 		public async Task<IEnumerable<AgentModel>> GetAllAgentsAsync() =>
 			await context.Agents.ToListAsync();
 
-		public async Task<AgentModel> CreateAgent(AgentModel agent)
+		public async Task<AgentModel> CreateAgentAsync(AgentDto agentDto)
 		{
-			if (agent == null)
-			{ 
+			if (agentDto == null)
+			{
 				throw new Exception("Invalid agent");
 			}
+			var agent = new AgentModel
+			{
+				Alias = agentDto.nickname,
+				ImageUrl = agentDto.photoUrl
+			};
 			context.Agents.Add(agent);
 			await context.SaveChangesAsync();
 			return agent;
 		}
 
-		public void UpdateAgentAsync(int id, AgentModel agent)
+		public async Task<AgentModel> PinAgentAsyinc(int id, PinAgentDto agentPin)
 		{
-			var existingAgent = context.Agents.Find(id)
+			var existingAgent = await GetAgentByIdAsync(id)
 				?? throw new Exception($"Agent by id {id} dose not exsit");
-			existingAgent.Alias = agent.Alias;
-			existingAgent.ImageUrl = agent.ImageUrl;
-			existingAgent.LocationX = agent.LocationX;
-			existingAgent.LocationY = agent.LocationY;
-			existingAgent.Status = agent.Status;
-			context.SaveChangesAsync();
+			existingAgent.LocationX = agentPin.x;
+			existingAgent.LocationY = agentPin.y;
+			await context.SaveChangesAsync();
+			return existingAgent;
 		}
 
-		public void MoveAgent(int id, Direction direction)
+		public async Task MoveAgentAsync(int id, string direction)
 		{
-			var agent = context.Agents.Find(id)
+			var agent = await GetAgentByIdAsync(id)
 				?? throw new Exception($"Agent by id {id} dose not exsit");
-			directionMovment[direction](agent);
-			context.SaveChanges();
+			var currentLocationX = agent.LocationX;
+			var currentLocationY = agent.LocationY;
+            if (Direction.TryGetValue(direction, out var offset))
+            {
+				var newLocationX = agent.LocationX += offset.x;
+				var newLocationY = agent.LocationY += offset.y;
+				if (currentLocationX == newLocationX && currentLocationY == newLocationY)
+				{ throw new Exception("Agent did not move"); }
+				agent.LocationX = newLocationX;
+				agent.LocationY = newLocationY;
+				await context.SaveChangesAsync();
+			}
+
 		}
 	}
 }

@@ -34,7 +34,8 @@ namespace AgentsRest.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Role = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Position = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LocationX = table.Column<double>(type: "float", nullable: false),
                     LocationY = table.Column<double>(type: "float", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false)

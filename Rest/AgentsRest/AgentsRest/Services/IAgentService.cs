@@ -1,4 +1,5 @@
-﻿using AgentsRest.Models;
+﻿using AgentsRest.Dto;
+using AgentsRest.Models;
 
 namespace AgentsRest.Services
 {
@@ -6,8 +7,8 @@ namespace AgentsRest.Services
 	{
 		Task<AgentModel?> GetAgentByIdAsync(int id);
 		Task<IEnumerable<AgentModel>> GetAllAgentsAsync();
-		Task<AgentModel> CreateAgent(AgentModel agent);
-		void UpdateAgentAsync(int id, AgentModel agent);
-		void MoveAgent(int id, Direction direction);
+		Task<AgentModel> CreateAgentAsync(AgentDto agent);
+		Task<AgentModel> PinAgentAsyinc(int id, PinAgentDto agentPin);
+		Task MoveAgentAsync(int id, string direction);
 	}
 }

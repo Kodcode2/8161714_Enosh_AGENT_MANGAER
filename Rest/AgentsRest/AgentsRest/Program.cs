@@ -19,6 +19,8 @@ namespace AgentsRest
 
 			// Register your scoped service before building the app
 			builder.Services.AddScoped<IAgentService, AgentService>();
+			builder.Services.AddScoped<ITargetService, TargetService>();
+			builder.Services.AddScoped<IMissionService, MissionService>();
 
 			var app = builder.Build();
 
