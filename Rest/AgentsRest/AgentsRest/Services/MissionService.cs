@@ -101,10 +101,12 @@ namespace AgentsRest.Services
 
 		public async Task AssigenMissionAsync(int id)
 		{
-			var mission = await GetMissionByIdAsync(id)
-				?? throw new Exception($"Mission with id {id} was not found");
-			mission.Status = MissionStatus.Assigned;
-			await context.SaveChangesAsync();
+			var proposedMissions = await context.Missions
+				.Include(m => m.Agent)
+				.Include(m => m.Target)
+				.Where(m => m.Status == MissionStatus.Proposed)
+				.ToListAsync();
+			;
 		}
 
 		public async Task ProcessMisionsAsync()
@@ -119,11 +121,16 @@ namespace AgentsRest.Services
 
 			foreach (var mission in missions)
 			{
-				var distance = CalculateDistance(
-					mission.Agent.LocationX,
-					mission.Agent.LocationY,
-					mission.Target.LocationX,
-					mission.Target.LocationY);
+				var agentX = mission.Agent.LocationX;
+				var agentY = mission.Agent.LocationY;
+				var targetX = mission.Target.LocationX;
+				var targetY = mission.Target.LocationY;
+
+				var (directionX, directionY) = CakculateDirection(agentX, agentY, targetX, targetY);
+				agentX += directionX;
+				agentY += directionY;
+
+				var distance = CalculateDistance(agentX, agentY, targetX, targetY);
 
 				if (distance < 1.0)
 				{
@@ -143,5 +150,13 @@ namespace AgentsRest.Services
 			distance / 5.0;
 		private double CalculateDistance(double x1, double y1, double x2, double y2) =>
 			Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+
+		private (double, double) CakculateDirection(double agentX, double agentY, double targetX, double targetY)
+		{
+			double dX = targetX - agentX;
+			double dY = targetY - agentY;
+			double magnitude = Math.Sqrt(dX * dX + dY * dY);
+			return (dX / magnitude , dY / magnitude);
+		}
 	}
 }
