@@ -44,7 +44,7 @@ namespace AgentsRest.Services
 		public async Task<MissionModel> CreateMissionAsync(MissionModel model)
 		{
 			if (model == null)
-			{ throw new Exception("Invalid mission"); }
+			{ throw new Exception("Invalid group"); }
 
 			
 			context.Missions.Add(model);
@@ -65,15 +65,23 @@ namespace AgentsRest.Services
 
 		public async Task ProposeMissionAsync()
 		{
+			var activeMissions = await context.Missions
+				.Where(m => m.Status == MissionStatus.Assigned)
+				.Select(m => new {m.AgentId, m.TargetId})
+				.ToListAsync();
+
+			var activeAgentsId = activeMissions.Select(m => m.AgentId).Distinct();
+			var activeTargetsId = activeMissions.Select(m => m.TargetId).Distinct();
+
 			var targets = await context.Targets
-				.Where(t => t.Status == TargetStatus.Alive)
+				.Where(t => t.Status == TargetStatus.Alive && !activeTargetsId.Contains(t.Id))
 				.ToListAsync();
 
-			var agents = await context.Agents
-				.Where(a => a.Status == AgentStatus.Dormant)
+			var availableAgents = await context.Agents
+				.Where(a => a.Status == AgentStatus.Dormant  && !activeAgentsId.Contains(a.Id))
 				.ToListAsync();
 
-			var missionsToPropose = agents
+			var missionsToPropose = availableAgents
 				.SelectMany(
 				agent => targets,
 				(agent, target) =>
@@ -93,39 +101,43 @@ namespace AgentsRest.Services
 					TargetId = at.Target.Id,
 					RemainingTime = CalculateRemainingTime(at.Distance),
 					Status = MissionStatus.Proposed
-				});
-			context.Missions.AddRange(missionsToPropose);
+				})
+				.ToList();
+
+			var uniqueMissions = missionsToPropose
+				.GroupBy(m => m.TargetId)
+				.Select(g => g.First())
+				.ToList();
+
+			context.Missions.AddRange(uniqueMissions);
 			await context.SaveChangesAsync();
 		}
 
 
-		public async Task AssigenMissionAsync(int id)
+		public async Task AssigenMissionAsync(int missionId)
 		{
-			var proposedMissions = await context.Missions
-				.Include(m => m.Agent)
-				.Include(m => m.Target)
-				.Where(m => m.Status == MissionStatus.Proposed)
-				.ToListAsync();
-			var closestMissions = proposedMissions
-				.GroupBy(m => m.TargetId)
-				.Select(g => new
-				{
-					TargetId = g.Key,
-					ClosestMission = g.OrderBy(
-						m => CalculateDistance(
-							m.Agent.LocationX,
-							m.Agent.LocationY,
-							m.Target.LocationX,
-							m.Target.LocationY))
-					.FirstOrDefault()
-				})
-				.ToList();
+			var missionToAssigen = await GetMissionByIdAsync(missionId)
+				?? throw new Exception($"mission with id {missionId} not found");
 
-			foreach (var mission in closestMissions)
-			{
-				var closestssion = 
-			}
-		}
+            if (missionToAssigen.Status != MissionStatus.Proposed)
+            {
+				throw new Exception("Only proposed missions can be assigend");
+            }
+
+			missionToAssigen.Status = MissionStatus.Assigned;
+			missionToAssigen.Agent.Status = AgentStatus.Active;
+
+			var relatedMissions = await context.Missions
+				.Where(m => m.AgentId == missionToAssigen.AgentId || m.TargetId == missionToAssigen.TargetId)
+				.Where(m => m.Id != missionId && m.Status == MissionStatus.Proposed)
+				.ToListAsync();
+
+			relatedMissions.ForEach(m => m.Status = MissionStatus.Cancelled);
+
+			context.Missions.Update(missionToAssigen);
+			context.Missions.RemoveRange(relatedMissions);
+			await context.SaveChangesAsync();
+        }
 
 		public async Task ProcessMisionsAsync()
 		{
@@ -134,7 +146,7 @@ namespace AgentsRest.Services
 			var missions = await context.Missions
 				.Include(m => m.Agent)
 				.Include(m => m.Target)
-				.Where(m => m.Status == MissionStatus.Assigned || m.Status == MissionStatus.Proposed)
+				.Where(m => m.Status == MissionStatus.Assigned)
 				.ToListAsync();
 
 			foreach (var mission in missions)
@@ -147,18 +159,18 @@ namespace AgentsRest.Services
 				var (directionX, directionY) = CakculateDirection(agentX, agentY, targetX, targetY);
 				agentX += directionX;
 				agentY += directionY;
+				
+				mission.Agent.LocationX = agentX;
+				mission.Agent.LocationY = agentY;
 
-				var distance = CalculateDistance(agentX, agentY, targetX, targetY);
+				double distance = CalculateDistance(agentX, agentY, targetX, targetY);
+				mission.RemainingTime = CalculateRemainingTime(distance);
 
 				if (distance < 1.0)
 				{
 					mission.Status = MissionStatus.Completed;
 					mission.Target.Status = TargetStatus.Eliminated;
 					mission.Agent.Status = AgentStatus.Dormant;
-				}
-				else
-				{
-					mission.RemainingTime = CalculateRemainingTime(distance);
 				}
 			}
 			await context.SaveChangesAsync();
@@ -174,6 +186,8 @@ namespace AgentsRest.Services
 			double dX = targetX - agentX;
 			double dY = targetY - agentY;
 			double magnitude = Math.Sqrt(dX * dX + dY * dY);
+			if (magnitude == 0) { return (0,0); }
+
 			return (dX / magnitude , dY / magnitude);
 		}
 	}

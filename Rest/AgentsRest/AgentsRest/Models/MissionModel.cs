@@ -16,6 +16,7 @@
 	{
 		Proposed,
 		Assigned,
-		Completed
+		Completed,
+		Cancelled
 	}
 }

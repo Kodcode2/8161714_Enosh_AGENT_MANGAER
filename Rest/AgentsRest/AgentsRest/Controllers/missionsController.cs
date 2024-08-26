@@ -31,11 +31,11 @@ namespace AgentsRest.Controllers
 		}
 
 		[HttpPut("{id}")]
-		public async Task<IActionResult> UpdateMission(int id, [FromBody] MissionStatus status)
+		public async Task<IActionResult> AssignMission(int id)
 		{
 			try
 			{
-				await missionService.UpdateMissionStatusAsync(id, status);
+				await missionService.AssigenMissionAsync(id);
 				return NoContent();
 			}
 			catch (Exception ex)

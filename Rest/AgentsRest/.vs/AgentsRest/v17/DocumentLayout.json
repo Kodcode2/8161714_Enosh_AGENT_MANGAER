@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\services\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\services\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\services\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,28 +27,28 @@
       "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\dto\\pintargetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\dto\\pintargetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\models\\agentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\models\\agentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\dto\\agentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\models\\agentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\models\\agentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\dto\\updatemissionstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\dto\\updatemissionstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\dto\\moveagentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\dto\\movetargetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\dto\\movetargetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\dto\\pintargetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\dto\\pintargetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16075D4D-8EBC-43F4-8E70-575B8481B3B5}|AgentsRest\\AgentsRest.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\rest\\agentsrest\\agentsrest\\dto\\targetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,11 +114,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MissionModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Models\\MissionModel.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Models\\MissionModel.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Models\\MissionModel.cs",
+              "RelativeToolTip": "AgentsRest\\Models\\MissionModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:41:25.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "missionsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Controllers\\missionsController.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Controllers\\missionsController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Controllers\\missionsController.cs",
+              "RelativeToolTip": "AgentsRest\\Controllers\\missionsController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T09:16:11.439Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -128,65 +150,66 @@
               "RelativeDocumentMoniker": "AgentsRest\\Services\\MissionService.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Services\\MissionService.cs",
               "RelativeToolTip": "AgentsRest\\Services\\MissionService.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAcwH0AAAAXAAAA",
+              "ViewState": "AQIAALIAAAAAAAAAAAAmwMAAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T09:16:54.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "agentsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Controllers\\agentsController.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Controllers\\agentsController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Controllers\\agentsController.cs",
-              "RelativeToolTip": "AgentsRest\\Controllers\\agentsController.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAQwEgAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "TargetModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Models\\TargetModel.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Models\\TargetModel.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Models\\TargetModel.cs",
+              "RelativeToolTip": "AgentsRest\\Models\\TargetModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T13:54:38.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AgentService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Services\\AgentService.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Services\\AgentService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Services\\AgentService.cs",
-              "RelativeToolTip": "AgentsRest\\Services\\AgentService.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAkwDkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T13:22:10.631Z",
+              "WhenOpened": "2024-08-21T12:40:16.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "missionsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Controllers\\missionsController.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Controllers\\missionsController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Controllers\\missionsController.cs",
-              "RelativeToolTip": "AgentsRest\\Controllers\\missionsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T09:16:11.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IMissionService.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Services\\IMissionService.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Services\\IMissionService.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Services\\IMissionService.cs",
               "RelativeToolTip": "AgentsRest\\Services\\IMissionService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAwAoAAAAGAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T09:16:37.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "AgentService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Services\\AgentService.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Services\\AgentService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Services\\AgentService.cs",
+              "RelativeToolTip": "AgentsRest\\Services\\AgentService.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:22:10.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "agentsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Controllers\\agentsController.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Controllers\\agentsController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Controllers\\agentsController.cs",
+              "RelativeToolTip": "AgentsRest\\Controllers\\agentsController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAqwEUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:54:38.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TargetService.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Services\\TargetService.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Services\\TargetService.cs",
@@ -198,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "MissionDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Dto\\MissionDto.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Dto\\MissionDto.cs",
@@ -210,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "IAgentService.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Services\\IAgentService.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Services\\IAgentService.cs",
@@ -222,20 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MissionModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Models\\MissionModel.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Models\\MissionModel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Models\\MissionModel.cs",
-              "RelativeToolTip": "AgentsRest\\Models\\MissionModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:41:25.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ITargetService.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Services\\ITargetService.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Services\\ITargetService.cs",
@@ -247,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "PinAgentDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Dto\\PinAgentDto.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Dto\\PinAgentDto.cs",
@@ -259,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "AgentDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Dto\\AgentDto.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Dto\\AgentDto.cs",
@@ -271,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "AgentModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Models\\AgentModel.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Models\\AgentModel.cs",
@@ -279,11 +289,12 @@
               "RelativeToolTip": "AgentsRest\\Models\\AgentModel.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:37:38.506Z"
+              "WhenOpened": "2024-08-21T12:37:38.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "UpdateMissionStatusDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Dto\\UpdateMissionStatusDto.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Dto\\UpdateMissionStatusDto.cs",
@@ -295,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Program.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Program.cs",
@@ -303,11 +314,12 @@
               "RelativeToolTip": "AgentsRest\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAswBYAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:57:26.718Z"
+              "WhenOpened": "2024-08-21T12:57:26.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 8,
               "Title": "PinTargetDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Dto\\PinTargetDto.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Dto\\PinTargetDto.cs",
@@ -315,11 +327,12 @@
               "RelativeToolTip": "AgentsRest\\Dto\\PinTargetDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T08:34:17.013Z"
+              "WhenOpened": "2024-08-25T08:34:17.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "MoveTargetDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Dto\\MoveTargetDto.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Dto\\MoveTargetDto.cs",
@@ -331,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MoveAgentDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Dto\\MoveAgentDto.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Dto\\MoveAgentDto.cs",
@@ -355,20 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TargetModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Models\\TargetModel.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Models\\TargetModel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Models\\TargetModel.cs",
-              "RelativeToolTip": "AgentsRest\\Models\\TargetModel.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T12:40:16.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "targetsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\Controllers\\targetsController.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Controllers\\targetsController.cs",
@@ -429,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Rest\\AgentsRest\\AgentsRest\\appsettings.json",
               "RelativeDocumentMoniker": "AgentsRest\\appsettings.json",
@@ -437,8 +437,7 @@
               "RelativeToolTip": "AgentsRest\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-21T13:00:21.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T13:00:21.002Z"
             }
           ]
         }

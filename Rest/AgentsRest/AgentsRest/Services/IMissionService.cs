@@ -10,7 +10,7 @@ namespace AgentsRest.Services
 		Task<MissionModel> CreateMissionAsync(MissionModel model);
 		Task UpdateMissionStatusAsync(int id, MissionStatus status);
 		Task ProposeMissionAsync();
-		Task AssigenMissionAsync(int id);
+		Task AssigenMissionAsync(int missionId);
 		Task ProcessMisionsAsync();
 	}
 }
