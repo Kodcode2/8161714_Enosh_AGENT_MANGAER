@@ -106,7 +106,25 @@ namespace AgentsRest.Services
 				.Include(m => m.Target)
 				.Where(m => m.Status == MissionStatus.Proposed)
 				.ToListAsync();
-			;
+			var closestMissions = proposedMissions
+				.GroupBy(m => m.TargetId)
+				.Select(g => new
+				{
+					TargetId = g.Key,
+					ClosestMission = g.OrderBy(
+						m => CalculateDistance(
+							m.Agent.LocationX,
+							m.Agent.LocationY,
+							m.Target.LocationX,
+							m.Target.LocationY))
+					.FirstOrDefault()
+				})
+				.ToList();
+
+			foreach (var mission in closestMissions)
+			{
+				var closestssion = 
+			}
 		}
 
 		public async Task ProcessMisionsAsync()
