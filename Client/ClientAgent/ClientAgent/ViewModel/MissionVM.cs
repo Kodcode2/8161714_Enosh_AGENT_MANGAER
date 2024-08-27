@@ -6,7 +6,7 @@
 		public string? AgentNickname { get; set; }
 		public int AgentXPosition { get; set; }
 		public int AgentYPosition { get; set; }
-		public string? TargettName { get; set; }
+		public string? TargetName { get; set; }
 		public string? TargetRole { get; set; }
 		public int TargetXPosition { get; set; }
 		public int TargetYPosition { get; set; }

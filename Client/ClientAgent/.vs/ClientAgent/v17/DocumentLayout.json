@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\views\\mission\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\views\\mission\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\viewmodel\\missionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\viewmodel\\missionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\dto\\missiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\dto\\missiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\services\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\services\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\views\\mission\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\views\\mission\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\views\\mission\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\views\\mission\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\dto\\missiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|solutionrelative:clientagent\\dto\\missiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD3F4F03-8716-4270-8D38-CF5DE7DA6CD2}|ClientAgent\\ClientAgent.csproj|c:\\users\\user\\onedrive\\desktop\\full stack dev cores\\c#\\michaelhurwitz\\client\\clientagent\\clientagent\\models\\agentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,102 +62,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Program.cs",
-              "RelativeDocumentMoniker": "ClientAgent\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Program.cs",
-              "RelativeToolTip": "ClientAgent\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwAoAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:21:09.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Views\\Mission\\Index.cshtml",
-              "RelativeDocumentMoniker": "ClientAgent\\Views\\Mission\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Views\\Mission\\Index.cshtml",
-              "RelativeToolTip": "ClientAgent\\Views\\Mission\\Index.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAcwFAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-26T15:57:58.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MissionService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Services\\MissionService.cs",
+              "RelativeDocumentMoniker": "ClientAgent\\Services\\MissionService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Services\\MissionService.cs",
+              "RelativeToolTip": "ClientAgent\\Services\\MissionService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:53:00.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MissionController.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Controllers\\MissionController.cs",
               "RelativeDocumentMoniker": "ClientAgent\\Controllers\\MissionController.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Controllers\\MissionController.cs",
               "RelativeToolTip": "ClientAgent\\Controllers\\MissionController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowC8AAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T15:21:47.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MissionVM.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\ViewModel\\MissionVM.cs",
               "RelativeDocumentMoniker": "ClientAgent\\ViewModel\\MissionVM.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\ViewModel\\MissionVM.cs",
               "RelativeToolTip": "ClientAgent\\ViewModel\\MissionVM.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T15:18:55.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MissionDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Dto\\MissionDto.cs",
-              "RelativeDocumentMoniker": "ClientAgent\\Dto\\MissionDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Dto\\MissionDto.cs",
-              "RelativeToolTip": "ClientAgent\\Dto\\MissionDto.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:02:27.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MissionModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Models\\MissionModel.cs",
               "RelativeDocumentMoniker": "ClientAgent\\Models\\MissionModel.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Models\\MissionModel.cs",
               "RelativeToolTip": "ClientAgent\\Models\\MissionModel.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAgAAAApAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T14:59:46.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TargetModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Models\\TargetModel.cs",
-              "RelativeDocumentMoniker": "ClientAgent\\Models\\TargetModel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Models\\TargetModel.cs",
-              "RelativeToolTip": "ClientAgent\\Models\\TargetModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Program.cs",
+              "RelativeDocumentMoniker": "ClientAgent\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Program.cs",
+              "RelativeToolTip": "ClientAgent\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwA8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:56:43.325Z",
+              "WhenOpened": "2024-08-26T15:21:09.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Views\\Mission\\Details.cshtml",
+              "RelativeDocumentMoniker": "ClientAgent\\Views\\Mission\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Views\\Mission\\Details.cshtml",
+              "RelativeToolTip": "ClientAgent\\Views\\Mission\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T07:11:12.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Views\\Mission\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClientAgent\\Views\\Mission\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Views\\Mission\\Index.cshtml",
+              "RelativeToolTip": "ClientAgent\\Views\\Mission\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T07:01:45.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AgentService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Services\\AgentService.cs",
+              "RelativeDocumentMoniker": "ClientAgent\\Services\\AgentService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Services\\AgentService.cs",
+              "RelativeToolTip": "ClientAgent\\Services\\AgentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:28:43.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TargetService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Services\\TargetService.cs",
+              "RelativeDocumentMoniker": "ClientAgent\\Services\\TargetService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Services\\TargetService.cs",
+              "RelativeToolTip": "ClientAgent\\Services\\TargetService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:44:59.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AgentModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Models\\AgentModel.cs",
               "RelativeDocumentMoniker": "ClientAgent\\Models\\AgentModel.cs",
@@ -154,7 +196,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
+              "Title": "MissionDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Dto\\MissionDto.cs",
+              "RelativeDocumentMoniker": "ClientAgent\\Dto\\MissionDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Dto\\MissionDto.cs",
+              "RelativeToolTip": "ClientAgent\\Dto\\MissionDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:02:27.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TargetModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Models\\TargetModel.cs",
+              "RelativeDocumentMoniker": "ClientAgent\\Models\\TargetModel.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Models\\TargetModel.cs",
+              "RelativeToolTip": "ClientAgent\\Models\\TargetModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:56:43.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ImageUtils.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\full stack dev cores\\C#\\michaelhurwitz\\Client\\ClientAgent\\ClientAgent\\Utils\\ImageUtils.cs",
               "RelativeDocumentMoniker": "ClientAgent\\Utils\\ImageUtils.cs",
@@ -162,8 +230,7 @@
               "RelativeToolTip": "ClientAgent\\Utils\\ImageUtils.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:44:59.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T08:44:59.232Z"
             }
           ]
         }

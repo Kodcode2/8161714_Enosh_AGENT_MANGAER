@@ -4,11 +4,9 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Missions</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
 <table class="table">
     <thead>
         <tr>
@@ -25,7 +23,7 @@
                 @Html.DisplayNameFor(model => model.AgentYPosition)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TargettName)
+                @Html.DisplayNameFor(model => model.TargetName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.TargetRole)
@@ -61,7 +59,7 @@
                 @Html.DisplayFor(modelItem => item.AgentYPosition)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TargettName)
+                @Html.DisplayFor(modelItem => item.TargetName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.TargetRole)

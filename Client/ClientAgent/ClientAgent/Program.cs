@@ -1,3 +1,5 @@
+using ClientAgent.Services;
+
 namespace ClientAgent
 {
 	public class Program
@@ -9,8 +11,11 @@ namespace ClientAgent
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
 			builder.Services.AddHttpClient();
+            builder.Services.AddScoped<MissionService>();
+            builder.Services.AddScoped<AgentService>();
+            builder.Services.AddScoped<TargetService>();
 
-			var app = builder.Build();
+            var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
 			if (!app.Environment.IsDevelopment())

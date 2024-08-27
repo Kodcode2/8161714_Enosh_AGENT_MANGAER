@@ -151,7 +151,8 @@ namespace AgentsRest.Services
 
 			foreach (var mission in missions)
 			{
-				var agentX = mission.Agent.LocationX;
+                var startTime = DateTime.Now;
+                var agentX = mission.Agent.LocationX;
 				var agentY = mission.Agent.LocationY;
 				var targetX = mission.Target.LocationX;
 				var targetY = mission.Target.LocationY;
@@ -171,8 +172,9 @@ namespace AgentsRest.Services
 					mission.Status = MissionStatus.Completed;
 					mission.Target.Status = TargetStatus.Eliminated;
 					mission.Agent.Status = AgentStatus.Dormant;
-				}
-			}
+                    mission.ActualTime += (DateTime.Now - startTime).TotalMinutes;
+                }
+            }
 			await context.SaveChangesAsync();
 		}
 
